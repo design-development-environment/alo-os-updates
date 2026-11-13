@@ -1,0 +1,30 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Alo OS
+Label: Alo OS Sahara
+Suite: sahara
+Codename: sahara
+Date: Fri, 13 Nov 2026 13:11:40 +0000
+Architectures: amd64
+Components: main
+Description: Signed updates for Alo OS Sahara 1
+SHA256:
+ d0d7a69032f710b210be6701c549b40357a19649eb9dbe7a32b3c661419dbbf4             1550 main/binary-amd64/Packages
+ 06ebe2fffa3bbf9f997ff83dcbd82c81a8902357c03810d62fb84dbff8e90c8c              717 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEFuoLxxs+pi0JXhgoQX6GqYyTQawFAmr3DIwACgkQQX6GqYyT
+Qazs6g//Y+21JJgJv84Ffu9XEE7cSubHO7MZygyvwY9ai1NJdXVsEcx0kWx1yrhz
+jOc8GQ9lnUsdQEVWC/Bho/bTonqKeRNwlrUkQjZIgXMZr5H3hehOu6BPpJ9f8j8V
+7hzghElq/6QE2ankYHrUNcXzHzo/Qkt6j8OnJgDLKwMNMppkRs+S6qm3gGmBVufu
+Lv+vKt/mDXc2h6Juq/8gpC7IEoFtg5uIXvvefKF5cL8aiIyk4C8/UTLvwDAIvHrI
+WSunAGU0AHg2er9elXVSVs49wyDg91VC7Nl/0+owBGjp3kiBRYKi/AmbaG/PyUkr
+FvBXEKB31WGgV4UCcz5F4FWaMMbOShJUdLBYCS38dEd9wqHXbpxLF2ibwKFrFjii
+xumztn61W4MRluBiei7FfuFarJlEGk83LaxOXC1mKZr2h6nSRV7/Qn9/V5AO0Utx
+/GOaPoVe2oUHaSxGACnGIFNAXcKHw5nC5LEsSb/xONW90bnKlV1JosrMH1IKUdAd
+gxTVcg9UuicwUhaHl6H1zgZPaW4af8UKbnh/zgQ5ULcmZufrMPV/lkgl1fsr5zwj
+K0MUV0V+j8PvXrW0MQVAfRSJGrYNNBmv6VQnj4GQtPc5HQkzSYY3UO4k2Lmbrimz
+JTy3E/5tsK+EYDMIEm+/cL8lizA7R+Je+lN9vjcvHYjxn8iqMrw=
+=0Shq
+-----END PGP SIGNATURE-----

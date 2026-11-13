@@ -1,0 +1,45 @@
+Package: alo-os-archive-keyring
+Version: 1.0.1~test1
+Architecture: all
+Maintainer: Alo OS Project <codegamedesign@gmail.com>
+Installed-Size: 3
+Filename: pool/main/alo-os-archive-keyring_1.0.1~test1_all.deb
+Size: 2692
+MD5sum: 51c3d7582748cb9f8ccf3692b3cc887a
+SHA1: cb0d970d53a52dee7a56abe954c59edbf7ff13e8
+SHA256: b7b171e142d7757a7cae389b814dab86a8d328859030b9b68942ef0b19bf803c
+Section: misc
+Priority: optional
+Description: OpenPGP archive keyring for signed Alo OS updates
+
+Package: alo-os-repository
+Version: 1.0.1~test1
+Architecture: all
+Maintainer: Alo OS Project <codegamedesign@gmail.com>
+Installed-Size: 2
+Depends: alo-os-archive-keyring (= 1.0.1~test1)
+Filename: pool/main/alo-os-repository_1.0.1~test1_all.deb
+Size: 1728
+MD5sum: a65201850f3b342844f083a3b5558ca8
+SHA1: a40d55f20ef5db92fad55c58d79f26df4a7ffb72
+SHA256: fe95b2cebf47039b3e1613430c7e4252ebf4bf611960af79d36164052e2444ba
+Section: misc
+Priority: optional
+Description: APT source configuration for signed Alo OS updates
+
+Package: alo-os-update-manager
+Version: 1.0.1~test1
+Architecture: all
+Maintainer: Alo OS Project <codegamedesign@gmail.com>
+Installed-Size: 4
+Depends: apt, libnotify-bin, plasma-discover, kdialog
+Recommends: packagekit
+Filename: pool/main/alo-os-update-manager_1.0.1~test1_all.deb
+Size: 3156
+MD5sum: 8f46190b3c05c5381c7d932ea5a27551
+SHA1: 594607a53efd55dac91bb20a548c9ca5fc0c97d1
+SHA256: 7824da4dee2924787968d1ab407c532a5e6642b72375bee823e48556e38c3fa2
+Section: admin
+Priority: optional
+Description: Native desktop update notifications and launcher for Alo OS
+
