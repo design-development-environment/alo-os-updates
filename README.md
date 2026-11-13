@@ -64,15 +64,27 @@ built and tested for the Sahara release channel only.
 - If a package needs correction, the project publishes a higher fixed version;
   it does not rewrite published signed history.
 
-## ISO distribution
+## Download Alo OS Sahara 1.0.0
 
-The verified Sahara 1.0.0 ISO is maintained for direct physical testing and is
-not published in this repository. GitHub cannot host its 4.6 GB size as one
-Release asset, and this repository intentionally remains a small, reliable
-signed package archive.
+The official AMD64 installation image and its SHA-256 checksum are available
+from the project download folder:
 
-Do not upload ISO images, screenshots, source build trees, private keys,
-passphrases, or unrelated files here.
+[Download Alo OS Sahara 1.0.0](https://drive.google.com/drive/folders/1tcrvxUPzdX6uwPIvvtZJqYWqt2v6_S10?usp=drive_link)
+
+Download these two matching files:
+
+- `alo-os-sahara-1.0.0-amd64.iso`
+- `alo-os-sahara-1.0.0-amd64.iso.sha256`
+
+Before writing the USB drive, Linux and macOS users can verify the image:
+
+```bash
+sha256sum -c alo-os-sahara-1.0.0-amd64.iso.sha256
+```
+
+This public repository remains a small, reliable signed package archive. Do not
+upload ISO images, screenshots, source build trees, private keys, passphrases,
+or unrelated files here.
 
 ## Maintainers
 
